@@ -26,6 +26,7 @@ function showProduct(myProduct) {
 
     const img = myCopy.querySelector(".product_image");
     img.setAttribute("src", myProduct.image.guid);
+
     const parentElem = document.querySelector("section");
     parentElem.appendChild(myCopy);
 }

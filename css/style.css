@@ -1,3 +1,25 @@
+/*fonts*/
+ @import url("https://use.typekit.net/ggb1pek.css");
+
+
+:root {
+    --primary-font: cabrito-sans, sans-serif;
+    --main-color: #4EA6C7;
+}
+
+body {
+    font-family: var(--primary-font);
+    top: 0px;
+    left: 0px;
+}
+
+h1 {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-style:normal;
+    font-size: 35px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,4 +31,22 @@ img {
 
 * {
   box-sizing: border-box;
+}
+
+/*button*/
+
+.property {
+    padding: 1rem;
+    color: var(--main-color);
+    text-align: center;
+    text-decoration: none;
+    font: 400 1.1em/1 var(--primary-font);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-style: solid;
+    border: 1;
+    border-color: var(--main-color);
+    background-color: white;
+
 }
