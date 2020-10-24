@@ -63,3 +63,13 @@ img {
     background-color: white;
 
 }
+
+.main {
+    color: white;
+    text-transform: uppercase;
+    font: 400 1.1em/1 var(--primary-font);
+    background-color: var(--main-color);
+    padding: 1rem;
+    letter-spacing: 1px;
+    border: 0;
+}
