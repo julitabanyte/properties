@@ -1,5 +1,5 @@
 /*fonts*/
- @import url("https://use.typekit.net/ggb1pek.css");
+@import url("https://use.typekit.net/ggb1pek.css");
 
 
 :root {
@@ -16,21 +16,34 @@ body {
 h1 {
     font-family: var(--primary-font);
     font-weight: 500;
-    font-style:normal;
+    font-style: normal;
     font-size: 35px;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.post {
+    display: grid;
+    width: 400px;
+    float: left;
+    flex-direction: column;
+    flex-basis: 100%;
+    padding: 15px;
+    flex: 1;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*button*/
