@@ -9,8 +9,6 @@
 
 body {
     font-family: var(--primary-font);
-    top: 0px;
-    left: 0px;
 }
 
 h1 {
@@ -46,6 +44,27 @@ img {
     box-sizing: border-box;
 }
 
+.topnav {
+    display:inline-block;
+    margin: auto;
+    overflow: hidden;
+    width: 1000px;
+    display: flex;
+    height: 60px;
+}
+
+.options {
+    margin:auto;
+}
+
+h1 {
+    margin: 10px;
+}
+
+mark {
+    color: var(--main-color);
+    background-color: #ffffff;
+}
 /*button*/
 
 .property {
@@ -61,7 +80,6 @@ img {
     border: 1;
     border-color: var(--main-color);
     background-color: white;
-
 }
 
 .main {
