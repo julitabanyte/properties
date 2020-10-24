@@ -20,9 +20,9 @@ function showProduct(myProduct) {
     const myCopy = temp.cloneNode(true);
     myCopy.querySelector(".street_address").innerHTML = myProduct.street_address;
     myCopy.querySelector(".city_address").textContent = myProduct.city_address;
-    myCopy.querySelector(".bed").textContent = myProduct.bed;
-    myCopy.querySelector(".bath").textContent = myProduct.bath;
-    myCopy.querySelector(".sq_feet").textContent = myProduct.sq_feet;
+    myCopy.querySelector(".bedrooms-count").textContent = myProduct.bedrooms;
+    myCopy.querySelector(".bathrooms-count").textContent = myProduct.bathrooms;
+    myCopy.querySelector(".sq_feet-count").textContent = myProduct.sq_feet;
 
     const img = myCopy.querySelector(".product_image");
     img.setAttribute("src", myProduct.image.guid);

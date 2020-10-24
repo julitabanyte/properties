@@ -31,13 +31,18 @@ img {
 .post {
     display: grid;
     width: 400px;
+    height: 500px;
     float: left;
     flex-direction: column;
     flex-basis: 100%;
-    padding: 15px;
     flex: 1;
-    align-content: center;
+    text-align: center;
     flex-wrap: wrap;
+    border: 2px;
+    border-color: lightgray;
+    border-style: solid;
+    margin: 10px;
+    margin-top: 40px;
 }
 
 * {
@@ -61,6 +66,12 @@ h1 {
     margin: 10px;
 }
 
+h2 {
+    margin: auto;
+    font: 500 1.4em/1 var(--primary-font);
+    margin-bottom: 10px
+
+}
 mark {
     color: var(--main-color);
     background-color: #ffffff;
@@ -74,7 +85,6 @@ mark {
     text-decoration: none;
     font: 400 1.1em/1 var(--primary-font);
     letter-spacing: 1px;
-    text-transform: uppercase;
     cursor: pointer;
     border-style: solid;
     border: 1;
@@ -84,10 +94,10 @@ mark {
 
 .main {
     color: white;
-    text-transform: uppercase;
     font: 400 1.1em/1 var(--primary-font);
     background-color: var(--main-color);
     padding: 1rem;
     letter-spacing: 1px;
     border: 0;
 }
+
