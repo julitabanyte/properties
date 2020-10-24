@@ -30,8 +30,8 @@ img {
 
 .post {
     display: grid;
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 450px;
     float: left;
     flex-direction: column;
     flex-basis: 100%;
@@ -50,16 +50,17 @@ img {
 }
 
 .topnav {
-    display:inline-block;
-    margin: auto;
     overflow: hidden;
     width: 1000px;
     display: flex;
     height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .options {
-    margin:auto;
+    margin: auto;
 }
 
 h1 {
@@ -70,12 +71,30 @@ h2 {
     margin: auto;
     font: 500 1.4em/1 var(--primary-font);
     margin-bottom: 10px
-
 }
+
 mark {
     color: var(--main-color);
     background-color: #ffffff;
 }
+
+.container {
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+
+.bedrooms {
+    padding: 20px;
+}
+
+.bath {
+    padding: 20px;
+}
+
+.sq_feet {
+    padding: 20px;
+}
+
 /*button*/
 
 .property {
@@ -100,4 +119,3 @@ mark {
     letter-spacing: 1px;
     border: 0;
 }
-
