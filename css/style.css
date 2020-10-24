@@ -34,10 +34,7 @@ img {
     height: 450px;
     float: left;
     flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
     text-align: center;
-    flex-wrap: wrap;
     border: 2px;
     border-color: lightgray;
     border-style: solid;
@@ -83,18 +80,6 @@ mark {
     background-color: #F2F2F2;
 }
 
-.bedrooms {
-    padding: 20px;
-}
-
-.bath {
-    padding: 20px;
-}
-
-.sq_feet {
-    padding: 20px;
-}
-
 /*button*/
 
 .property {
@@ -109,6 +94,11 @@ mark {
     border: 1;
     border-color: var(--main-color);
     background-color: white;
+}
+
+.numbers-table
+{
+    width: 100%;
 }
 
 .main {
