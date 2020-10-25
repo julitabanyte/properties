@@ -114,3 +114,8 @@ td {
     letter-spacing: 1px;
     border: 0;
 }
+
+img:hover {
+    webkit-filter: blur(4px);
+    filter: blur(4px);
+}
